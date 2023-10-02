@@ -57,37 +57,63 @@
 
 
     <!-- formulario -->
-    <div class="row justify-content-center">
-        <div class="col-4 p-5 mt-5" id="formularioa">
+    <div class="row justify-content-center container-fluid" id="formulario">
+        <div class="col-5 p-5 pt-0 mt-5" id="formularioa">
             <form>
+                <hr>
+                <h2>REGISTRATE</h2>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">No compartiremos tu informarcion con nadie.</div>
+                    <label for="user" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="user">
+                    <label for="lastname" class="form-label mt-2">Apellido</label>
+                    <input type="text" class="form-control" id="lastname">
+                </div>
+                <div class="input-group mb-3 mt-3">
+                    <label class="input-group-text" for="inputGroupSelect01">Elegir</label>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>Genero...</option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Femenino</option>
+                    </select>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">No compartiremos tu informarcion con nadie.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Repetir Contraseña</label>
                     <input type="password" class="form-control" id="exampleInputPassword1">
-                  </div>
-                <div class="input-group mb-3">
-                    <label class="input-group-text" for="inputGroupSelect01">Elegir</label>
-                    <select class="form-select" id="inputGroupSelect01">
-                      <option selected>Genero...</option>
-                      <option value="1">Masculino</option>
-                      <option value="2">Femenino</option>
-                    </select>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-        
+                </div>
+                <button type="submit" class="btn btn-danger col-6 mt-3">Registrarse</button>
+            </form>
+        </div>
+
+        <div class="col-5 mt-5">
+            <h3 class="mt-5 text-center text-white bg-danger">UNITE AL CLUB Y OBTENE LOS BENEFICIOS!</h3>
+            <p class="p-2 text-center">Obtené recompensas hoy mismo:</p>
+
+            <p class="p-2 text-center">15% de descuento en tu próxima compra</p>
+
+            <p class="p-2 text-center">Acceso a productos y rebajas exclusivos para miembros</p>
+
+            <p class="p-2 text-center">Acceso a las novedades y prioridad en tus consultas</p>
+
+            <p class="p-2 text-center">Ofertas y promociones especiales</p>
+
+            <p class="p-2 text-center">©2023-AtelierBotanico</p>
+
+            <p class="mt-5 px-3 text-center" id="colorgris">Al registrarte Estas aceptando <b>"Bases y Condiciones"</b> y <b>"Terminos de Usos y de Servicios"</b>.
+                Ademas recibiras novedades de marketing, novedades y actualizaciones, ofertas especiales y otra información sobre Atelier (puedes cancelar tu suscripción en cualquier momento).
+            </p>
         </div>
     </div>
-    
-      <!-- FOOTER inicio -->
+
+    <!-- FOOTER inicio -->
 
     <div class="footer text-center container-fluid">
         <div class="row d-flex">
@@ -98,7 +124,7 @@
                 <h6 class="mt-3"><a href="">Productos</a></h6>
                 <h6 class="mt-3"><a href="">Direccion</a></h6>
             </div>
-            <div class="col-3 mt-5">
+            <div class="col-3 mt-5 mb-4">
                 <h4 class="titulofooter">Ayuda</h4>
                 <h6 class="mt-3"><a href="" class="aref">¿Como Comprar?</a></h6>
                 <h6 class="mt-3"><a href="">Preguntas Frecuentes</a></h6>
@@ -108,13 +134,13 @@
             <div class="col-3">
                 <img src="../img/logo.png" alt="logo" class="imglogo">
             </div>
-            <div class="col-12 mt-5">
+            <hr>
+            <div class="col-12 mb-5 d-flex">
                 <h6 class="copi">©2023-AtelierBotanico todos los derechos reservados.
                 </h6>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>

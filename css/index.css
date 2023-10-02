@@ -134,7 +134,7 @@ a {
 }
 
 .footer {
-  background-color: rgb(228, 227, 227);
+  background-color: rgb(240, 240, 240);
 }
 
 .imglogo{
@@ -169,7 +169,7 @@ a:hover {
 }
 
 #navbarP{
-  background-color: rgb(236, 236, 236) !important;
+  background-color: rgb(255, 246, 246) !important;
 }
 
 .registrara{
@@ -178,7 +178,15 @@ a:hover {
 }
 
 #formularioa{
-  border: 1px solid rgb(124, 124, 221);
-  border-radius: 20px;
+  /* border: 1px solid rgb(124, 124, 221);
+  border-radius: 20px; */
 }
 
+#formulario{
+  background-color: #f7f7f7;
+}
+
+#colorgris{
+  color: #7c7c7c;
+  font-size: small;
+}
