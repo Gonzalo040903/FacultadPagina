@@ -163,3 +163,11 @@ a:hover {
 .izquierda{
   margin-left: 150px;
 }
+
+.anavbar:hover{
+  color: aqua;
+}
+
+#anavbar:hover{
+  color: rgb(255, 255, 255);
+}
