@@ -9,7 +9,7 @@ body {
 }
 
 .encabezadoP {
-  background-color: rgb(217, 59, 193);
+  background-color: rgb(240, 0, 208);
   color: aliceblue;
 }
 
@@ -162,5 +162,23 @@ a:hover {
 
 .izquierda{
   margin-left: 150px;
+}
+
+.anavbar:hover{
+  color: rgb(236, 122, 122) !important; 
+}
+
+#navbarP{
+  background-color: rgb(236, 236, 236) !important;
+}
+
+.registrara{
+  position: absolute;
+  right: 30px;
+}
+
+#formularioa{
+  border: 1px solid rgb(124, 124, 221);
+  border-radius: 20px;
 }
 
