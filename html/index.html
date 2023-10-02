@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="encabezadoP">
+        <h2>Tu Jardin de ensueño</h2>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbarP">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="logo" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Flores
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Con Flores</a></li>
+                            <li><a class="dropdown-item" href="#">Sin Flores</a></li>
+                            <li>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FIN NAVBAR -->
+
+    <!-- CARROUSEL -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/aaaaa.png"
+                    class="d-block w-100" alt="..." id="imagencarrousel">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5Fondo">Flores para Vos</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/Untitled.png" class="d-block w-100" alt="..." id="imagencarrousel">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5Fondo">Flores para Ella</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/ImagenCarrousel.png" class="d-block w-100" id="imagencarrousel">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="h5Fondo">Flores para ella</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- FIN CARROUSEL -->
+
+    <!-- NOSOTROS -->
+    <div class="container-fluid row pb-5 pt-5 d-flex justify-content-center" id="nosotros">
+        <div class="col-6 text-center">
+            <h3 class="m-3 mb-4 textospacing">¿Quienes Somos?</h3>
+            <p class="mb-4">Emprendimiento familiar con más de 12 años de trayectoria. Estamos orgullosos de la calidad
+                de las flores
+                y del cuidado estético de cada una de nuestras presentaciones. Queremos hacer aún más especiales todos
+                los momentos importantes de su vida. Estamos a disposición de nuestros clientes y amigos las 24 hs los
+                365 días del año. Estamos en Tucumán</p>
+        </div>
+    </div>
+
+    <!-- FIN DE NOSOTROS -->
+
+    <!-- Servicios -->
+    <div class="serviciosnosotros d-flex justify-content-center pt-4" id="serviciosDiv">
+        <div class="col-6 serv text-center">
+            <h4 class="text-w text-danger shadowletter">Servicios</h4>
+            <div class="row d-flex justify-content-center">
+                <div class="col-6">
+                    <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-x-diamond-fill text-danger" viewBox="0 0 16 16">
+                            <path
+                                d="M9.05.435c-.58-.58-1.52-.58-2.1 0L4.047 3.339 8 7.293l3.954-3.954L9.049.435zm3.61 3.611L8.708 8l3.954 3.954 2.904-2.905c.58-.58.58-1.519 0-2.098l-2.904-2.905zm-.706 8.614L8 8.708l-3.954 3.954 2.905 2.904c.58.58 1.519.58 2.098 0l2.905-2.904zm-8.614-.706L7.292 8 3.339 4.046.435 6.951c-.58.58-.58 1.519 0 2.098l2.904 2.905z" />
+                        </svg>Arrgelos Florales</h5>
+                    <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-x-diamond-fill text-danger" viewBox="0 0 16 16">
+                            <path
+                                d="M9.05.435c-.58-.58-1.52-.58-2.1 0L4.047 3.339 8 7.293l3.954-3.954L9.049.435zm3.61 3.611L8.708 8l3.954 3.954 2.904-2.905c.58-.58.58-1.519 0-2.098l-2.904-2.905zm-.706 8.614L8 8.708l-3.954 3.954 2.905 2.904c.58.58 1.519.58 2.098 0l2.905-2.904zm-8.614-.706L7.292 8 3.339 4.046.435 6.951c-.58.58-.58 1.519 0 2.098l2.904 2.905z" />
+                        </svg>Ramos Y Centros de Mesa</h5>
+                    <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-x-diamond-fill text-danger" viewBox="0 0 16 16">
+                            <path
+                                d="M9.05.435c-.58-.58-1.52-.58-2.1 0L4.047 3.339 8 7.293l3.954-3.954L9.049.435zm3.61 3.611L8.708 8l3.954 3.954 2.904-2.905c.58-.58.58-1.519 0-2.098l-2.904-2.905zm-.706 8.614L8 8.708l-3.954 3.954 2.905 2.904c.58.58 1.519.58 2.098 0l2.905-2.904zm-8.614-.706L7.292 8 3.339 4.046.435 6.951c-.58.58-.58 1.519 0 2.098l2.904 2.905z" />
+                        </svg>Coronas</h5>
+                    <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-x-diamond-fill text-danger" viewBox="0 0 16 16">
+                            <path
+                                d="M9.05.435c-.58-.58-1.52-.58-2.1 0L4.047 3.339 8 7.293l3.954-3.954L9.049.435zm3.61 3.611L8.708 8l3.954 3.954 2.904-2.905c.58-.58.58-1.519 0-2.098l-2.904-2.905zm-.706 8.614L8 8.708l-3.954 3.954 2.905 2.904c.58.58 1.519.58 2.098 0l2.905-2.904zm-8.614-.706L7.292 8 3.339 4.046.435 6.951c-.58.58-.58 1.519 0 2.098l2.904 2.905z" />
+                        </svg>Ventas de Flores</h5>
+                    <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-x-diamond-fill text-danger" viewBox="0 0 16 16">
+                            <path
+                                d="M9.05.435c-.58-.58-1.52-.58-2.1 0L4.047 3.339 8 7.293l3.954-3.954L9.049.435zm3.61 3.611L8.708 8l3.954 3.954 2.904-2.905c.58-.58.58-1.519 0-2.098l-2.904-2.905zm-.706 8.614L8 8.708l-3.954 3.954 2.905 2.904c.58.58 1.519.58 2.098 0l2.905-2.904zm-8.614-.706L7.292 8 3.339 4.046.435 6.951c-.58.58-.58 1.519 0 2.098l2.904 2.905z" />
+                        </svg>Armado de ramos Personalizados</h5>
+                    <h4 class="text-danger shadowletter">Direccion:</h4>
+                    <h5>Av. Roca 1347</h5>
+                    <h4 class="text-danger shadowletter">Contacto:</h4>
+                    <h5>WhatsApp:3815755338</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 serv text-center">
+            <h4 class="text-danger shadowletter">Ubicacion</h4>
+            <div class="row text-center">
+                <div class="col-6 text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.4204110643254!2d-65.19494782609914!3d-26.826577538091712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225ea7648d9271%3A0xbb14d257fbd4a639!2sSan%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1696198576157!5m2!1ses-419!2sar"
+                        width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin DE Servicios -->
+
+
+    <!-- 24HRS -->
+    <div class="row  d-flex justify-content-center text-center mt-5 mb-5">
+        <div class="col-3" id="contactanos">
+            <img src="../img/logo.png" class="logoimg pt-3" alt="logo">
+            <h4>LAS 24 HORAS DISPONIBLES <br> ¡contactanos!</h4>
+        </div>
+    </div>
+    <!-- fin 24HRS -->
+
+    <!-- FOOTER inicio -->
+   
+    <div class="footer text-center">
+        <div class="row d-flex">
+            <div class="col-3 mt-5 h4 izquierda">
+                <h4 class="titulofooter">Nosotros</h4>
+                <h6 class="mt-3"><a href="">¿Quienes Somos?</a></h6>
+                <h6 class="mt-3"><a href="">Contacto</a></h6>
+                <h6 class="mt-3"><a href="">Productos</a></h6>
+                <h6 class="mt-3"><a href="">Direccion</a></h6>
+            </div>
+            <div class="col-3 mt-5">
+                <h4 class="titulofooter">Ayuda</h4>
+                <h6 class="mt-3"><a href="" class="aref">¿Como Comprar?</a></h6>
+                <h6 class="mt-3"><a href="">Preguntas Frecuentes</a></h6>
+                <h6 class="mt-3"><a href="">Terminos y Condiciones</a></h6>
+                <h6 class="mt-3"><a href="">Politicas de Devolucion</a></h6>
+            </div>
+            <div class="col-3">
+                <img src="../img/logo.png" alt="logo" class="imglogo">
+            </div>
+            <div class="col-12 mt-5">
+                <h6 class="copi">©2023-AtelierBotanico todos los derechos reservados.
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

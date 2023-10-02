@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Inconsolata', monospace;
+}
+
+body {
+  height: 1000px
+}
+
+.encabezadoP {
+  background-color: rgb(217, 59, 193);
+  color: aliceblue;
+}
+
+.encabezadoP h2 {
+  margin-bottom: 0px;
+  font-size: medium;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#imagencarrousel {
+  width: 2000px;
+  height: 500px;
+}
+
+#footer {
+  background-color: rgb(251, 244, 234);
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+li {
+  list-style: none;
+  margin: 9px;
+}
+
+.copyrightFooter {
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  color: rgb(118, 118, 118);
+}
+
+.iconoA:hover {
+  border: 0px;
+}
+
+.iconosFooter {
+  font-size: x-large;
+  display: flex;
+  padding-left: 100px;
+  margin-bottom: 0px;
+}
+
+.iconosFooter a {
+  padding: 3px;
+}
+
+.iconosFooter a:hover {
+  text-decoration: none;
+  border: 0px;
+}
+
+.copyrightFooterText {
+  color: rgb(141, 138, 138);
+}
+
+@media (max-width: 950px) {
+  #imagenlogodefooter {
+    width: 17rem;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+.h5Fondo {
+  text-shadow: black 3px 3px 2px;
+}
+
+#nosotros {
+  background-color: rgb(153, 117, 117);
+  color: aliceblue;
+}
+
+.logoimg {
+  width: 200px;
+  padding: 0px;
+}
+
+#contactanos {
+  border: 2px rgb(217, 59, 193) solid;
+  font-size: small;
+}
+
+#contactanos h4 {
+  color: rgb(217, 59, 193);
+  font-size: large;
+  padding-top: 10px;
+}
+
+.textospacing {
+  letter-spacing: 4px;
+}
+
+.ServiciosyProd {
+  border: 2px rgb(217, 59, 193) solid;
+  /* border-radius: 10px; */
+}
+
+.logo {
+  height: 70px;
+}
+
+#serviciosDiv {
+  background-image: url(../img/85184.jpg);
+  background-position: initial;
+  background-repeat: repeat;
+  background-size: 500px;
+}
+
+.shadowletter {
+  text-shadow: rgb(160, 160, 160) 2px 2px 3px;
+}
+
+.iframe {
+  box-shadow: rgb(134, 134, 134) 4px 4px 10px;
+}
+
+.footer {
+  background-color: rgb(228, 227, 227);
+}
+
+.imglogo{
+  width: 25rem;
+}
+
+h6 a{
+  text-decoration: none;
+  color: rgb(116, 115, 115);
+  font-size: larger;
+}
+
+a:hover {
+  color: rgb(119, 163, 173);
+  transition-duration: 200ms;
+}
+
+.titulofooter{
+  font-size: 2rem;
+}
+
+.copi{
+  color: rgb(146, 146, 146);
+}
+
+.izquierda{
+  margin-left: 150px;
+}
