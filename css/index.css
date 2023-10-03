@@ -137,11 +137,11 @@ a {
   background-color: rgb(240, 240, 240);
 }
 
-.imglogo{
+.imglogo {
   width: 25rem;
 }
 
-h6 a{
+h6 a {
   text-decoration: none;
   color: rgb(116, 115, 115);
   font-size: larger;
@@ -152,37 +152,68 @@ a:hover {
   transition-duration: 200ms;
 }
 
-.titulofooter{
+.titulofooter {
   font-size: 2rem;
 }
 
-.copi{
+.copi {
   color: rgb(146, 146, 146);
 }
 
-.izquierda{
+.izquierda {
   margin-left: 150px;
 }
 
-.anavbar:hover{
-  color: rgb(236, 122, 122) !important; 
+.anavbar:hover {
+  color: rgb(236, 122, 122) !important;
 }
 
-#navbarP{
+#navbarP {
   background-color: rgb(255, 246, 246) !important;
 }
 
-.registrara{
+.registrara {
   position: absolute;
   right: 30px;
 }
 
 
-#formulario{
+#formulario {
   background-color: #f7f7f7;
 }
 
-#colorgris{
+#colorgris {
   color: #7c7c7c;
   font-size: small;
+}
+
+.swiper {
+  width: 70%;
+  height: 55%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textoengris{
+  color: #7c7c7c;
+  font-size: medium;
 }
