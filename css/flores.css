@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+}
+
+.cat{
+    text-decoration: solid;
+    color: rgb(88, 88, 88);
+    margin-left: 25px;
+}
+
+#divaa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(242, 241, 241);
+}
+
+#seccioncards{
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    
+}
+
+.textoferta{
+    color: rgb(96, 96, 96);
+    text-decoration: none;
+    font-style: none;
+    border: 1px rgb(221, 220, 220) solid;
+    border-radius: 6px;
+    background-color: white;
+    padding: 10px;
+    margin: 7px;
+    width: 170px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.textoferta:hover{
+    background-color: rgb(248, 247, 247);
+    color:rgb(246, 147, 147) ;
+}
+
+.aref{
+    text-decoration: none;
+}
+
+.aaal{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#bodysection{
+    background-color: rgb(242, 241, 241);
+}
