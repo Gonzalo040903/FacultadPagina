@@ -18,7 +18,12 @@
 #seccioncards{
     background-color: rgb(255, 255, 255);
     border-radius: 6px;
-    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 20px !important;
 }
 
 .textoferta{
@@ -53,4 +58,20 @@
 
 #bodysection{
     background-color: rgb(242, 241, 241);
+}
+
+#carrito {
+    position: fixed;
+    top: 70px;
+    right: 10px;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#btn-carrito{
+    margin-right:5rem;
 }
